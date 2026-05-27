@@ -124,7 +124,7 @@ function Hero() {
               <div className="flex items-center gap-3">
                 {[
                   { icon: <GithubSVG />, url: "https://github.com/syafly/", label: "GitHub" },
-                  { icon: <LinkedinSVG />, url: "https://linkedin.com/syafly-zulfikar-31b450345", label: "LinkedIn" }
+                  { icon: <LinkedinSVG />, url: "https://www.linkedin.com/in/syafly-zulfikar-31b450345/", label: "LinkedIn" }
                 ].map((social, idx) => (
                   <a
                     key={idx}

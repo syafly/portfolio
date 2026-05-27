@@ -160,7 +160,7 @@ function About() {
                 <div className="space-y-6 animate-fadeIn">
                   {skillCategories.map((category, idx) => (
                     <div key={idx} className="p-5 rounded-2xl bg-slate-900/30 border border-slate-800/80">
-                      <h3 className="text-cyan font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                      <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                         <span className="w-1.5 h-3 bg-cyan-500 rounded-full" />
                         {category.title}
                       </h3>

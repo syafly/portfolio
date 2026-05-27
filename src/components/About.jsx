@@ -86,7 +86,7 @@ function About() {
       <div className="absolute top-1/2 left-10 w-72 h-72 rounded-full bg-cyan-600/5 blur-[100px] pointer-events-none" />
 
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-        
+
         {/* Left Column - Profile & Quick Stats */}
         <div className="lg:col-span-5 grid grid-cols-2 gap-4 lg:sticky lg:top-28">
           <div className="col-span-2 p-6 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 shadow-xl flex flex-col justify-between">
@@ -102,14 +102,14 @@ function About() {
           </div>
 
           {stats.map((stat, idx) => (
-            <ScrollReveal 
-              key={idx} 
-              direction="up" 
+            <ScrollReveal
+              key={idx}
+              direction="up"
               delay={100 + idx * 100}
               duration={600}
               className="h-full"
             >
-              <div 
+              <div
                 className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700/60 transition-colors duration-300 shadow-lg text-left h-full"
               >
                 <div className="mb-4">{stat.icon}</div>
@@ -141,11 +141,10 @@ function About() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 px-5 py-3 border-b-2 font-bold text-sm transition-all duration-300 whitespace-nowrap ${
-                    activeTab === tab.id
+                  className={`flex items-center gap-2 px-5 py-3 border-b-2 font-bold text-sm transition-all duration-300 whitespace-nowrap ${activeTab === tab.id
                       ? "border-cyan-400 text-cyan-400 bg-cyan-500/5"
                       : "border-transparent text-slate-400 hover:text-white"
-                  }`}
+                    }`}
                 >
                   {tab.icon}
                   {tab.label}
@@ -155,13 +154,13 @@ function About() {
 
             {/* Tab Contents */}
             <div className="min-h-[300px]">
-              
+
               {/* SKILLS TAB */}
               {activeTab === "skills" && (
                 <div className="space-y-6 animate-fadeIn">
                   {skillCategories.map((category, idx) => (
                     <div key={idx} className="p-5 rounded-2xl bg-slate-900/30 border border-slate-800/80">
-                      <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                      <h3 className="text-cyan font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
                         <span className="w-1.5 h-3 bg-cyan-500 rounded-full" />
                         {category.title}
                       </h3>
@@ -187,7 +186,7 @@ function About() {
                     <div key={idx} className="relative pl-10 group">
                       {/* Timeline dot */}
                       <div className="absolute left-[8px] top-1.5 w-[14px] h-[14px] rounded-full bg-slate-950 border-2 border-slate-700 group-hover:border-cyan-400 transition-colors duration-300 z-10" />
-                      
+
                       <div className="p-5 rounded-2xl bg-slate-900/20 border border-slate-850 hover:border-slate-800/80 hover:bg-slate-900/40 transition-all duration-300">
                         <span className="text-xs text-cyan-400 font-semibold uppercase tracking-wider block mb-1">
                           {exp.period}
@@ -214,7 +213,7 @@ function About() {
                     <div key={idx} className="relative pl-10 group">
                       {/* Timeline dot */}
                       <div className="absolute left-[8px] top-1.5 w-[14px] h-[14px] rounded-full bg-slate-950 border-2 border-slate-700 group-hover:border-blue-500 transition-colors duration-300 z-10" />
-                      
+
                       <div className="p-5 rounded-2xl bg-slate-900/20 border border-slate-850 hover:border-slate-800/80 hover:bg-slate-900/40 transition-all duration-300">
                         <span className="text-xs text-blue-400 font-semibold uppercase tracking-wider block mb-1">
                           {edu.period}

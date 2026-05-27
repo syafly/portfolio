@@ -142,8 +142,8 @@ function About() {
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
                   className={`flex items-center gap-2 px-5 py-3 border-b-2 font-bold text-sm transition-all duration-300 whitespace-nowrap ${activeTab === tab.id
-                      ? "border-cyan-400 text-cyan-400 bg-cyan-500/5"
-                      : "border-transparent text-slate-400 hover:text-white"
+                    ? "border-cyan-400 text-cyan-400 bg-cyan-500/5"
+                    : "border-transparent text-slate-400 hover:text-white"
                     }`}
                 >
                   {tab.icon}
@@ -168,7 +168,7 @@ function About() {
                         {category.skills.map((skill) => (
                           <span
                             key={skill}
-                            className="px-3.5 py-2 bg-slate-950 border border-slate-800 hover:border-cyan-500/40 text-slate-350 hover:text-cyan-400 rounded-xl text-xs sm:text-sm font-medium transition-all duration-300"
+                            className="px-3.5 py-2 bg-slate-950 border border-slate-800 hover:border-cyan-500/40 text-white hover:text-cyan-400 rounded-xl text-xs sm:text-sm font-medium transition-all duration-300"
                           >
                             {skill}
                           </span>

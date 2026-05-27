@@ -1,16 +1,128 @@
-# React + Vite
+# 🚀 Syafly Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern personal portfolio website built using React, Vite, and TailwindCSS.  
+This project showcases my profile, skills, projects, and contact section with a clean responsive UI and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ⚡ Fast performance with Vite
+- 🎨 Modern UI with TailwindCSS
+- 📱 Fully Responsive Design
+- 🧩 Reusable React Components
+- 📂 Portfolio & Skills Section
+- 📧 Contact Form using EmailJS
+- 🌙 Interactive and clean interface
+- 🔥 Smooth animations and transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React 19
+- Vite
+- TailwindCSS
+- Lucide React
+
+### Tools & Services
+- EmailJS
+- ESLint
+- PostCSS
+
+---
+
+## 📂 Project Structure
+
+```bash
+portfolio-react/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── dist/
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/syafly/portfolio.git
+```
+
+Go to project folder:
+
+```bash
+cd portfolio-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📧 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## 👨‍💻 Author
+
+**Syafly Zulfikar**
+
+- GitHub: https://github.com/syafly
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

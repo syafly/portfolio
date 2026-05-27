@@ -55,7 +55,8 @@ function Navbar() {
             src={logoImg}
             alt="Syafly Logo"
             className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-          />Syafly
+          />
+          <span className="text-white text-lg font-bold tracking-wide">Syafly</span>
         </a>
 
         {/* Desktop Menu */}

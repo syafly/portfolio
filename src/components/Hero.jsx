@@ -77,7 +77,7 @@ function Hero() {
 
             {/* Title */}
             <p className="text-slate-400 text-lg md:text-xl font-medium mb-3 tracking-wide">
-                Hello, 👋 I'm
+              Hello, 👋 I'm
             </p>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 leading-none">
@@ -123,8 +123,8 @@ function Hero() {
               <span className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Socials:</span>
               <div className="flex items-center gap-3">
                 {[
-                  { icon: <GithubSVG />, url: "https://github.com/", label: "GitHub" },
-                  { icon: <LinkedinSVG />, url: "https://linkedin.com/", label: "LinkedIn" }
+                  { icon: <GithubSVG />, url: "https://github.com/syafly/", label: "GitHub" },
+                  { icon: <LinkedinSVG />, url: "https://linkedin.com/syafly-zulfikar-31b450345", label: "LinkedIn" }
                 ].map((social, idx) => (
                   <a
                     key={idx}
@@ -193,7 +193,7 @@ function Hero() {
                   <span className="text-cyan-400">experience</span>: [
                 </div>
                 <div className="pl-8">
-                  <span className="text-emerald-300">"BP Tapera"</span>, <span className="text-emerald-300">"Swiss-Belcourt"</span>, <span className="text-emerald-300">"Lintasarta"</span>
+                  <span className="text-emerald-300">"BP Tapera"</span>, <span className="text-emerald-300">"Swiss-Belcourt"</span>,<span className="text-emerald-300">"Barru Baraka Properti"</span>,  <span className="text-emerald-300">"Lintasarta"</span>
                 </div>
                 <div className="pl-4">]</div>
                 <div>&#125;;</div>

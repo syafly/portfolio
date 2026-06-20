@@ -14,7 +14,7 @@ function About() {
   const skillCategories = [
     {
       title: "Programming & Dev",
-      skills: ["PHP", "Laravel", "HTML", "CSS", "JavaScript", "MySQL", "SQL"],
+      skills: ["Laravel","Next.js", "Tailwind CSS", "JavaScript", "MySQL", "SQL","MongoDB", "PostgreSQL"],
     },
     {
       title: "System & Infrastructure",
@@ -27,10 +27,16 @@ function About() {
   ];
 
   const workExperience = [
+     {
+      role: "(IT Project Manager)",
+      company: "Harapan Jaya Multi Bisnis",
+      period: "June 2026 - Present",
+      description: "They turn business ideas into tech reality by guiding developers, managing budgets, and keeping the project on track from start to finish."
+    },
     {
       role: "Server & Network Analyst",
       company: "BP Tapera",
-      period: "October 2025 - Present",
+      period: "October 2025 - Mei 2026",
       description: "Keeping an eye on system performance, setting up and configuring server and network infrastructure, and jumping in to troubleshoot whenever technical issues pop up."
     },
     {

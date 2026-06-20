@@ -125,4 +125,4 @@ This project can be deployed using:
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed MIT License.

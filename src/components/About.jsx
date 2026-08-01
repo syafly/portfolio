@@ -28,10 +28,10 @@ function About() {
 
   const workExperience = [
      {
-      role: "(IT Project Manager)",
-      company: "Harapan Jaya Multi Bisnis",
-      period: "June 2026 - Present",
-      description: "They turn business ideas into tech reality by guiding developers, managing budgets, and keeping the project on track from start to finish."
+      role: "(IT & EDP)",
+      company: "Hotel Santika Makassar",
+      period: "July 2026 - Present",
+      description: "Keep the hotel’s network, booking systems, and overall technology running seamlessly 24/7 to deliver an exceptional guest experience and smooth operations."
     },
     {
       role: "Server & Network Analyst",

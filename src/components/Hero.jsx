@@ -228,7 +228,7 @@ function Hero() {
                       <span className="text-cyan-400">location</span>: <span className="text-emerald-300">"Makassar, Indonesia"</span>,
                     </div>
                     <div className="pl-4">
-                      <span className="text-cyan-400">currentJob</span>: <span className="text-emerald-300">"IT Project Manager @ Harapan Jaya Multi Bisnis"</span>,
+                      <span className="text-cyan-400">currentJob</span>: <span className="text-emerald-300">"IT/EDP @ Hotel Santika Makassar"</span>,
                     </div>
                     <div className="pl-4">
                       <span className="text-cyan-400">techStack</span>: [

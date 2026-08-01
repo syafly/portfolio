@@ -28,7 +28,7 @@ function About() {
 
   const workExperience = [
      {
-      role: "(IT & EDP)",
+      role: "IT & EDP",
       company: "Hotel Santika Makassar",
       period: "July 2026 - Present",
       description: "Keep the hotel’s network, booking systems, and overall technology running seamlessly 24/7 to deliver an exceptional guest experience and smooth operations."

@@ -100,7 +100,7 @@ function Hero() {
 
             {/* Description */}
             <p className="text-slate-400 text-base sm:text-lg max-w-xl mb-8 leading-relaxed">
-              IT Professional & Web Developer with extensive experience in managing server/network infrastructure at <span className="text-white font-medium"> BP Tapera</span> and <span className="text-white font-medium"> Swiss-Belcourt Makassar</span>, and building scalable web applications using <span className="text-cyan-450 font-semibold">Laravel</span> & <span className="text-cyan-450 font-semibold">React</span>.
+              IT Professional & Web Developer with extensive experience in managing server/network infrastructure at <span className="text-white font-medium">Hotel Santika Makassar, BP Tapera</span> and <span className="text-white font-medium"> Swiss-Belcourt Makassar</span>, and building scalable web applications using <span className="text-cyan-450 font-semibold">Laravel</span> & <span className="text-cyan-450 font-semibold">React</span>.
             </p>
 
             {/* CTA Buttons */}
